@@ -1,19 +1,25 @@
-# tailwind_css
-Django with Tailwind_CSS
+# Django with Tailwind_CSS
+obs: Tem que ter instalado o NODE e NPM. [INSTALAÇÃO NODE E NPM](https://www.hostinger.com.br/tutoriais/instalar-node-js-ubuntu)
 
-### criação do venv (criação do ambiente virtual)
-'''
+>`criação do venv (criação do ambiente virtual)`
+```
 python -m venv venv
-'''
-### ativando o ambiente virtual
-'''
+```
+<br/>
+
+>`ativando o ambiente virtual`
+```
 source -m venv/bin/activate
-'''
-### instalar os pacotes do projeto
-'''
+```
+<br/>
+
+>`instalar os pacotes do projeto`
+```
 pip install -r requirements.txt
-'''
-### executar o projeto
-'''
+```
+<br/>
+
+>`executar o projeto`
+```
 python manage.py runserver
-'''
+```
